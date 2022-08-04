@@ -1,0 +1,59 @@
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form legend {    /*O foco deve estar no formulário que será preenchido */
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao {      /* TAG de conteúdo  // replicar  a mesma configuração a outro elemento por meio do uso de uma vírgula*/
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px; /* alterar o espaçamento interno entre o conteúdo e a borda.*/
+    width: 50%;
+}
+
+.checkbox{
+    margin: 20px 0;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all; /* transformar de uma cor a outra de forma suave TODOS OS ELEMENTOS*/
+    cursor: pointer; /* mãozinha sobre o elemento */
+}
+
+.enviar:hover{
+    background-color: darkorange; /* mouse por cima do elemento fica mais escurinho */
+    transform: scale(1.2); /* aumenta um item proporcionalmente*/
+}
+
+table{
+    margin: 20px 0 40px;
+    border-collapse: collapse;
+}
+
+thead{
+    background: #555;
+    color: #FFF;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid #000;
+    padding: 8px 15px;
+}
